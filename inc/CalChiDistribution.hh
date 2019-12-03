@@ -3,9 +3,9 @@
 #
 #   Author        : Xin-Xin Ma
 #   Email         : xxmawhu@163.com
-#   File Name     : CalCulateChiDistribution.hh
+#   File Name     : CalChiDistribution.hh
 #   Create Time   : 2019-12-03 13:55
-#   Last Modified : 2019-12-03 15:30
+#   Last Modified : 2019-12-03 15:46
 #   Describe      :
 #
 # ====================================================*/
@@ -70,8 +70,8 @@ TGraphErrors CalChiDistribution(const TH1* hdata, const TH1* hmc) {
                                    hdata->GetXaxis()->GetXmax());
     graph.GetXaxis()->SetLimits(hdata->GetXaxis()->GetXmin(),
                                 hdata->GetXaxis()->GetXmax());
-    graph.GetYaxis()->SetLimits(-5, 5);
-    graph.GetYaxis()->SetRangeUser(-5.1, 5.1);
+    graph.GetYaxis()->SetLimits(-5.01, 5.01);
+    graph.GetYaxis()->SetRangeUser(-5.01, 5.01);
     graph.GetYaxis()->SetNdivisions(20);
     graph.GetYaxis()->SetLabelFont(42);
     graph.GetYaxis()->SetTicks("-");
