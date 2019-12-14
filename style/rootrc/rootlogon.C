@@ -1,6 +1,6 @@
 {
     printf("Welcome to the ROOT!\n");
-    gROOT->ProcessLine(".include /path/to/inc");
+    gROOT->ProcessLine(".include PATH_TO_THIS");
     gStyle->SetTitleColor(0);
     gStyle->SetStatColor(0);
     gStyle->SetTitleFillColor(0);
