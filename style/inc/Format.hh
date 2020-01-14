@@ -106,7 +106,6 @@ void Format(TPaveText* pt) {
 void Format(TLegend* leg) {
     leg->SetTextFont(42);
     leg->SetFillColor(0);
-    leg->SetTextAlign(13);
     // leg->SetLineColor(10);
     leg->SetLineStyle(2);
     leg->SetLineWidth(0);
